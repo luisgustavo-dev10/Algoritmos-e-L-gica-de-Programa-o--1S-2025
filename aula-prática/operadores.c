@@ -43,12 +43,12 @@ printf("O resto eh: %.2f %% %.0f = %d\n", n1, n2, resto);
 
 //Incremento
 n1++;
-printf("O incremento eh: %.2f++ = %.2f\n", n1+1, n1);
+printf("O incremento eh: %.2f++ = %.2f\n", n1-1, n1);
 
 
 //Decremento
 n1--;
-printf("O decremento eh: %.2f-- = %.2f\n", n1-1, n1);
+printf("O decremento eh: %.2f-- = %.2f\n", n1+1, n1);
 
 return 0;
 }
