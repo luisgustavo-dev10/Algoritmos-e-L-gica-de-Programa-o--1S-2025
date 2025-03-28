@@ -1,5 +1,4 @@
 #include <stdio.h> 
-
 int main (int argc, char argvv[]){
 float altura,peso,multi_altura, Resultado;
 float IMC;
@@ -12,6 +11,5 @@ Resultado = peso / multi_altura;
 
 IMC=Resultado;
 printf("o IMC eh : %.2f", IMC);
-system ("pause");
-
+ system("pause");
 }
