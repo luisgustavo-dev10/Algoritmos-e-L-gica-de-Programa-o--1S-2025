@@ -31,7 +31,7 @@ printf("O resultado_potenciacao eh: %.2f ^ %.2f = %.2f\n", n1, n2, resultado_pot
 
 //Radiciação
 float raiz_quadrada = sqrtf(n1);
-printf(" A raiz_quadrada eh: %.2f^1/2 = %.2f\n", n1, n2, raiz_quadrada);
+printf(" A raiz_quadrada eh: %.2f^1/2 = %.2f\n", n1, raiz_quadrada);
 
 //Resto da divisão
 float resto = (int) n1 % (int) n2;
