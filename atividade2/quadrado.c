@@ -9,6 +9,6 @@ scanf("%f", &lado);
 area_do_quadrado = (lado * lado);
 printf("A area_do_quadrado eh: %.2f ", area_do_quadrado);
 
-return 0;
+system("pause");
 
 }
