@@ -10,7 +10,7 @@ int main(int argc, char* argv[]){
 	scanf("%f",&altura);
 	
 	area_do_trapezio = (base_maior + base_menor) * altura/2;
-	printf("A area_do_trapezio eh: %.2f",area_do_trapezio);
+	printf("A area_do_trapezio eh: %.2f\n",area_do_trapezio);
 	
 	system("pause");
 }

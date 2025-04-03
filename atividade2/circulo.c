@@ -7,7 +7,7 @@ int main(int argc, char* argv[]){
 	scanf("%f",&raio);
 	 
 	area_do_circulo = 3.14 * (raio*raio);
-	printf("A area_do_circulo eh : %.2f",area_do_circulo);
+	printf("A area_do_circulo eh : %.2f\n",area_do_circulo);
 	
 	system("pause");
 }

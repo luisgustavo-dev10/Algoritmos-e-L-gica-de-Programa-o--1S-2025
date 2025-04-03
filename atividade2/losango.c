@@ -8,7 +8,7 @@ int main(int argc, char* argv[]){
 	scanf("%f",&diagonal_menor);
 	
 	area_do_losango = (diagonal_maior * diagonal_menor / 2);
-	printf("A area_do_losango eh: %.2f", area_do_losango);
+	printf("A area_do_losango eh: %.2f\n", area_do_losango);
 	
 	system("pause");
 	

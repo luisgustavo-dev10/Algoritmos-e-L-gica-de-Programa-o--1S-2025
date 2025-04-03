@@ -8,7 +8,7 @@ int main(int argc, char* argv[]){
 	scanf("%f", &base);
 	
 	area_do_triangulo = (altura * base / 2);
-	printf("A area_do_triangulo eh: %.2f", area_do_triangulo);
+	printf("A area_do_triangulo eh: %.2f\n", area_do_triangulo);
 	
 	system("pause");
 }
